@@ -1,0 +1,44 @@
+body{
+	background-color: black;
+
+}
+h1{
+	color: white;
+	font-family: monospace;
+     font-size: 60px;
+     text-align: center;
+     text-shadow: 10px;
+
+}
+
+h1:hover{
+	color: skyblue;
+
+	}
+
+
+h2{
+	color: white;
+	font-family: monospace;
+	font-size: 45px;
+	text-align: center;
+	padding-top:50px ;
+}
+
+p{
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	
+	
+
+
+}
+button{
+	font-size: 45px;
+	border-radius: 20px;
+	border: solid;
+	color: white;
+	background: linear-gradient(blueviolet,black);
+
+}

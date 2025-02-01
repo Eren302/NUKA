@@ -1,0 +1,198 @@
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: -10px;
+
+}
+
+.header-content h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.header-content h1:hover {
+    transform: scale(1.1); 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 0px;
+    
+
+
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:none ;
+    font-size: 1.1rem;
+    padding: 10px;
+    display: inline-block;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9900; 
+    transform: translateY(-5px); 
+}
+
+nav ul li a:active {
+    transform: translateY(2px);
+}
+
+@media (max-width: 768px) {
+    .header-content h1 {
+        font-size: 2.5rem; 
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul li a {
+        font-size: 1.2rem;
+    }
+}
+
+body{
+    background-color: whiet;
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.home {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.home h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 1.3rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about {
+    background-color: #ffffff;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.services {
+    background-color: #fafafa;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: solid;
+    border-width: 5px;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+
+}
+
+.service-item p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+
+}
+
+.vision {
+    background-color: lightgray;
+}
+
+.vision h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.vision p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.contact {
+    background-color: white;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+h2{
+    font-family: monospace;
+}
+}
